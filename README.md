@@ -1,4 +1,4 @@
-# Component CALC-CRC 
+# CALC-CRC 
 
 The Component CALC-CRC provides a flexible and efficient solution for calculating various CRC (Cyclic Redundancy Check) values and checksums. This component supports CRC-8, CRC-16, CRC-32, CRC-64, and checksum calculations, making it ideal for data integrity verification in embedded systems and data transmission applications.
 
@@ -16,16 +16,14 @@ The Component CALC-CRC provides a flexible and efficient solution for calculatin
 
 ## Dependencies
 
-### Software# Changelog
+### Software
 
 - [GCC](https://gcc.gnu.org/)
-- [CMake](https://cmake.org/)
+- [CMake](https://www.mingw-w64.org/)
 
 ### Components
 
 No dependencies on other components except standard ones.
-
-@todo add trace when in use.
 
 ## Folder & File Structure
 
@@ -43,11 +41,8 @@ calc-crc/
 
 All available customization to component functionality can be found below (add it to file [calc_crc_conf.h](examples/simple/inc/conf/calc_crc_conf.h)).
 
-```bash
-CALC_CRC_CONF_FREERTOS_USE           false               # Enable (true) or disable (false) FreeRTOS-based thread-safety mechanisms.  
-CALC_CRC_CONF_HARDWARE_USE           false               # Enable (true) or disable (false) hardware acceleration for CRC calculations (if supported).  
-CALC_CRC_CONF_TRACE_USE              true                # Enable (true) or disable (false) tracing for debugging and performance monitoring.  
-CALC_CRC_CONF_TRACE_LEVEL            TRACE_LEVEL_VER     # Set the trace verbosity level (e.g., TRACE_LEVEL_VER for verbose mode).  
+```c
+// Currently, there are no configurations available for this component.
 ```
 
 ## Exposed Functions
@@ -66,12 +61,9 @@ calc_crc_status_e CALC_CRC_Update(calc_crc_t *crc, void *data, size_t length);
 calc_crc_status_e CALC_CRC_Finalize(calc_crc_t *crc, void *result);
 ```
 
-```bash
-```
+## Using the CALC-CRC
 
-## Using the Calc-CRC
-
-This example demonstrates how to initialize and use the Calc-CRC component to calculate various CRC values and a checksum.
+This example demonstrates how to initialize and use the CALC-CRC component to calculate various CRC values and a checksum.
 
 ```c
 #include <stdio.h>

@@ -16,11 +16,9 @@
 extern "C" {
 #endif
 
-// --- Data Logger Configurations --------------------------------------------------------------------------------------
+// --- CALC-CRC configurations -----------------------------------------------------------------------------------------
 
-#define CALC_CRC_CONF_FREERTOS_USE false           /// Set to true to enable thread-safety mechanisms.
-#define CALC_CRC_CONF_TRACE_USE    true            /// Set to true to enable logging of buffer actions using TRACE.
-#define CALC_CRC_CONF_TRACE_LEVEL  TRACE_LEVEL_VER /// Configure trace level (if tracing is used).
+// Currently, there are no configurations available for this component..
 
 // C++ wrapper - End
 #ifdef __cplusplus
