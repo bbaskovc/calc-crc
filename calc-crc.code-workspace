@@ -1,0 +1,136 @@
+{
+    // Add project folders 
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    // Machine specific settings that should be copied into the container
+    "settings": {
+        "terminal.integrated.defaultProfile.windows": "Command Prompt",
+        "terminal.integrated.defaultProfile.linux": "bash",
+        // C/C++ configurations
+        "C_Cpp.errorSquiggles": "disabled",
+        // Disable cSpell diagnostic in PROBLEMS catcher.
+        "cSpell.diagnosticLevel": "Hint",
+        // Default intelisense engine
+        "C_Cpp.intelliSenseEngine": "default",
+        // Configure CMake on open
+        "cmake.configureOnOpen": true,
+        // Configure build dircetory
+        "cmake.buildDirectory": "${workspaceFolder}/build",
+        // CMake default directory
+        "cmake.sourceDirectory": "${workspaceFolder}/tests/ctest",
+        // Configurations based on file extensions
+        "[cpp]": {
+            "editor.defaultFormatter": "ms-vscode.cpptools",
+            "editor.rulers": [
+                120
+            ]
+        },
+        "[hpp]": {
+            "editor.defaultFormatter": "ms-vscode.cpptools",
+            "editor.rulers": [
+                120
+            ]
+        },
+        "[c]": {
+            "editor.defaultFormatter": "ms-vscode.cpptools",
+            "editor.rulers": [
+                120
+            ]
+        },
+        "[h]": {
+            "editor.defaultFormatter": "ms-vscode.cpptools",
+            "editor.rulers": [
+                120
+            ]
+        },
+        "files.associations": {
+            "any": "cpp",
+            "array": "cpp",
+            "atomic": "cpp",
+            "bit": "cpp",
+            "*.tcc": "cpp",
+            "cctype": "cpp",
+            "charconv": "cpp",
+            "chrono": "cpp",
+            "clocale": "cpp",
+            "cmath": "cpp",
+            "compare": "cpp",
+            "concepts": "cpp",
+            "condition_variable": "cpp",
+            "cstdarg": "cpp",
+            "cstddef": "cpp",
+            "cstdint": "cpp",
+            "cstdio": "cpp",
+            "cstdlib": "cpp",
+            "cstring": "cpp",
+            "ctime": "cpp",
+            "cwchar": "cpp",
+            "cwctype": "cpp",
+            "deque": "cpp",
+            "forward_list": "cpp",
+            "list": "cpp",
+            "map": "cpp",
+            "set": "cpp",
+            "string": "cpp",
+            "unordered_map": "cpp",
+            "unordered_set": "cpp",
+            "vector": "cpp",
+            "exception": "cpp",
+            "algorithm": "cpp",
+            "functional": "cpp",
+            "iterator": "cpp",
+            "memory": "cpp",
+            "memory_resource": "cpp",
+            "numeric": "cpp",
+            "optional": "cpp",
+            "random": "cpp",
+            "ratio": "cpp",
+            "string_view": "cpp",
+            "system_error": "cpp",
+            "tuple": "cpp",
+            "type_traits": "cpp",
+            "utility": "cpp",
+            "format": "cpp",
+            "fstream": "cpp",
+            "initializer_list": "cpp",
+            "iomanip": "cpp",
+            "iosfwd": "cpp",
+            "iostream": "cpp",
+            "istream": "cpp",
+            "limits": "cpp",
+            "mutex": "cpp",
+            "new": "cpp",
+            "numbers": "cpp",
+            "ostream": "cpp",
+            "semaphore": "cpp",
+            "span": "cpp",
+            "sstream": "cpp",
+            "stdexcept": "cpp",
+            "stop_token": "cpp",
+            "streambuf": "cpp",
+            "text_encoding": "cpp",
+            "thread": "cpp",
+            "cinttypes": "cpp",
+            "typeinfo": "cpp",
+            "variant": "cpp",
+            "calc_crc.h": "c"
+        }
+    },
+    // Development extensions
+    "extensions": {
+        "recommendations": [
+            "ms-vscode.cmake-tools",
+            "ms-vscode.cpptools",
+            "ms-vscode.hexeditor",
+            "streetsidesoftware.code-spell-checker"
+        ]
+    },
+    // Lunch configurations
+    "launch": {
+        "version": "0.2.0",
+        "configurations": []
+    }
+}
