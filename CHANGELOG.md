@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [vX.X.X](https://github.com/bbaskovc/calc-crc/tree/vX.X.X) - 2025-XX-XX
+
+### 📚 Documentation
+
+- Updated component README documentation.
+- Added README to examples and tests.
+
 ## [v1.0.0](https://github.com/bbaskovc/calc-crc/tree/v1.0.0) - 2025-03-11
 
 ### 🚀 Features

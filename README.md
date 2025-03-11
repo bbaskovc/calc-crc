@@ -2,6 +2,20 @@
 
 The Component CALC-CRC provides a flexible and efficient solution for calculating various CRC (Cyclic Redundancy Check) values and checksums. This component supports CRC-8, CRC-16, CRC-32, CRC-64, and checksum calculations, making it ideal for data integrity verification in embedded systems and data transmission applications.
 
+## Table of Contents
+
+- [Features](#features)
+- [Dependencies](#dependencies)
+    - [Software](#software)
+    - [Components](#components)
+- [Folder & File Structure](#folder--file-structure)
+- [Exposed Functions](#exposed-functions)
+- [Using the CALC-CRC](#using-the-calc-crc)
+- [Examples](#examples)
+- [Integrating CALC-CRC into Your Project](#integrating-calc-crc-into-your-project)
+    - [Prerequisites](#prerequisites)
+    - [Adding CALC-CRC to Your Project](#adding-calc-crc-to-your-project)
+
 ## Features
 
 * **Multi-CRC Support:** Calculate CRC-8, CRC-16, CRC-32, and CRC-64 values.
