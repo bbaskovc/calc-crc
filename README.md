@@ -2,6 +2,15 @@
 
 The Component CALC-CRC provides a flexible and efficient solution for calculating various CRC (Cyclic Redundancy Check) values and checksums. This component supports CRC-8, CRC-16, CRC-32, CRC-64, and checksum calculations, making it ideal for data integrity verification in embedded systems and data transmission applications.
 
+<p align="center">
+    <a href="https://github.com/bbaskovc/calc-crc/blob/main/LICENSE.md"><img src="https://img.shields.io/github/license/bbaskovc/calc-crc.svg" alt="GitHub License"></a>
+    <a href="http://ansicolortags.readthedocs.io/?badge=latest"><img src="https://readthedocs.org/projects/ansicolortags/badge/?version=latest" alt="Documentation Status"></a>
+    <a href="https://github.com/bbaskovc/calc-crc/issues"><img src="https://img.shields.io/github/issues/bbaskovc/calc-crc.svg" alt="GitHub Issues"></a>
+    <a href="https://github.com/bbaskovc/calc-crc/releases/"><img src="https://img.shields.io/github/release/bbaskovc/calc-crc.svg" alt="GitHub Release"></a>
+    <a href="https://github.com/bbaskovc/calc-crc/stargazers/"><img src="https://img.shields.io/github/stars/bbaskovc/calc-crc.svg?style=social&label=Star" alt="GitHub Stars"></a>
+    <a href="https://github.com/bbaskovc/calc-crc/network/"><img src="https://img.shields.io/github/forks/bbaskovc/calc-crc.svg?style=social&label=Fork" alt="GitHub Forks"></a>
+</p>
+
 ## Table of Contents
 
 - [Features](#features)
