@@ -7,6 +7,7 @@ The Component CALC-CRC provides a flexible and efficient solution for calculatin
     <a href="http://ansicolortags.readthedocs.io/?badge=latest"><img src="https://readthedocs.org/projects/ansicolortags/badge/?version=latest" alt="Documentation Status"></a>
     <a href="https://github.com/bbaskovc/calc-crc/issues"><img src="https://img.shields.io/github/issues/bbaskovc/calc-crc.svg" alt="GitHub Issues"></a>
     <a href="https://github.com/bbaskovc/calc-crc/releases/"><img src="https://img.shields.io/github/release/bbaskovc/calc-crc.svg" alt="GitHub Release"></a>
+    <br/>
     <a href="https://github.com/bbaskovc/calc-crc/stargazers/"><img src="https://img.shields.io/github/stars/bbaskovc/calc-crc.svg?style=social&label=Star" alt="GitHub Stars"></a>
     <a href="https://github.com/bbaskovc/calc-crc/network/"><img src="https://img.shields.io/github/forks/bbaskovc/calc-crc.svg?style=social&label=Fork" alt="GitHub Forks"></a>
 </p>
