@@ -19,6 +19,7 @@ The Component CALC-CRC provides a flexible and efficient solution for calculatin
     - [Software](#software)
     - [Components](#components)
 - [Folder & File Structure](#folder--file-structure)
+- [Configurations](#configurations)
 - [Exposed Functions](#exposed-functions)
 - [Using the CALC-CRC](#using-the-calc-crc)
 - [Examples](#examples)
@@ -53,18 +54,20 @@ No dependencies on other components except standard ones.
 
 ```bash
 calc-crc/
-├── .devcontainer/      # Configuration for development container (e.g., VS Code dev container).
-├── .github/            # GitHub configuration directory (e.g., Actions, workflows).
-├── examples/           # Sample applications demonstrating how to use the CRC component.
-├── inc/                # Public headers for the CRC calculation interface.
-├── src/                # Source files implementing CRC functionality.
-├── tests/              # Unit tests and validation for the component.
-├── .clang-format       # Configuration file for code formatting with Clang.
-├── .gitignore          # Specifies files and directories to be ignored by Git.
-├── .gitmodules         # Git submodule configuration.
-├── CMakeLists.txt      # CMake configuration for building the component.
-├── LICENSE.md          # License terms for the component.
-└── README.md           # Documentation and usage instructions.
+├── .devcontainer/              # Configuration for development container (e.g., VS Code dev container).
+├── .github/                    # GitHub configuration directory (e.g., Actions, workflows).
+├── examples/                   # Sample applications demonstrating how to use the CRC component.
+├── inc/                        # Public headers for the CRC calculation interface.
+├── src/                        # Source files implementing CRC functionality.
+├── tests/                      # Unit tests and validation for the component.
+├── .clang-format               # Configuration file for code formatting with Clang.
+├── .gitignore                  # Specifies files and directories to be ignored by Git.
+├── .gitmodules                 # Git submodule configuration.
+├── calc-crc.code-workspace     # Configuration for VS Code workspace.
+├── CHANGELOG.md                # Changelog tracking.
+├── CMakeLists.txt              # CMake configuration for building the component.
+├── LICENSE.md                  # License terms for the component.
+└── README.md                   # Documentation and usage instructions.
 ```
 
 ## Configurations 

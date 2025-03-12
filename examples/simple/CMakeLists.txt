@@ -23,7 +23,7 @@ set(REQ_LIBS
 set(CALC_CRC_CONF_DIR ${CMAKE_CURRENT_SOURCE_DIR}/inc/conf CACHE STRING "Directory for configuration files")
 
 # Add the CALC-CRC component
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/../../ extcalccrc)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/../../ calc-crc)
 
 # Create the executable 
 add_executable(${PROJECT_NAME} ${SRC_FILES})  
