@@ -22,6 +22,8 @@ extern "C" {
 #include <stdint.h>
 #include <stddef.h>
 
+// --- Public Defines --------------------------------------------------------------------------------------------------
+
 #define CALC_CRC_8BIT_POLYNOMIAL  ((uint8_t)0x07)                // Default polynomial for 8-bit CRC calculation.
 #define CALC_CRC_16BIT_POLYNOMIAL ((uint16_t)0x1021)             // Default polynomial for 16-bit CRC calculation.
 #define CALC_CRC_32BIT_POLYNOMIAL ((uint32_t)0x04C11DB7)         // Default polynomial for 32-bit CRC calculation.

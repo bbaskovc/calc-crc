@@ -51,13 +51,12 @@ enable_testing()
 # Add the additional linker flags for coverage
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} --coverage")
 
-
 # Add component ctest
 include(FetchContent)
 FetchContent_Declare(
   ctest
   GIT_REPOSITORY https://github.com/bbaskovc/ctest.git
-  GIT_TAG main
+  GIT_TAG v1.0.0
 )
 FetchContent_MakeAvailable(ctest)
 

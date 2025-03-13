@@ -1,6 +1,31 @@
 # CALC-CRC 
 
+<p align="center">
+    <a href="https://github.com/bbaskovc/calc-crc/blob/main/LICENSE.md"><img src="https://img.shields.io/github/license/bbaskovc/calc-crc.svg" alt="GitHub License"></a>
+    <a href="http://ansicolortags.readthedocs.io/?badge=latest"><img src="https://readthedocs.org/projects/ansicolortags/badge/?version=latest" alt="Documentation Status"></a>
+    <a href="https://github.com/bbaskovc/calc-crc/issues"><img src="https://img.shields.io/github/issues/bbaskovc/calc-crc.svg" alt="GitHub Issues"></a>
+    <a href="https://github.com/bbaskovc/calc-crc/releases/"><img src="https://img.shields.io/github/release/bbaskovc/calc-crc.svg" alt="GitHub Release"></a>
+    <br/>
+    <a href="https://github.com/bbaskovc/calc-crc/stargazers/"><img src="https://img.shields.io/github/stars/bbaskovc/calc-crc.svg?style=social&label=Star" alt="GitHub Stars"></a>
+    <a href="https://github.com/bbaskovc/calc-crc/network/"><img src="https://img.shields.io/github/forks/bbaskovc/calc-crc.svg?style=social&label=Fork" alt="GitHub Forks"></a>
+</p>
+
 The Component CALC-CRC provides a flexible and efficient solution for calculating various CRC (Cyclic Redundancy Check) values and checksums. This component supports CRC-8, CRC-16, CRC-32, CRC-64, and checksum calculations, making it ideal for data integrity verification in embedded systems and data transmission applications.
+
+## Table of Contents
+
+- [Features](#features)
+- [Dependencies](#dependencies)
+    - [Software](#software)
+    - [Components](#components)
+- [Folder & File Structure](#folder--file-structure)
+- [Configurations](#configurations)
+- [Exposed Functions](#exposed-functions)
+- [Using the CALC-CRC](#using-the-calc-crc)
+- [Examples](#examples)
+- [Integrating CALC-CRC into Your Project](#integrating-calc-crc-into-your-project)
+    - [Prerequisites](#prerequisites)
+    - [Adding CALC-CRC to Your Project](#adding-calc-crc-to-your-project)
 
 ## Features
 
@@ -29,18 +54,20 @@ No dependencies on other components except standard ones.
 
 ```bash
 calc-crc/
-├── .devcontainer/      # Configuration for development container (e.g., VS Code dev container).
-├── .github/            # GitHub configuration directory (e.g., Actions, workflows).
-├── examples/           # Sample applications demonstrating how to use the CRC component.
-├── inc/                # Public headers for the CRC calculation interface.
-├── src/                # Source files implementing CRC functionality.
-├── tests/              # Unit tests and validation for the component.
-├── .clang-format       # Configuration file for code formatting with Clang.
-├── .gitignore          # Specifies files and directories to be ignored by Git.
-├── .gitmodules         # Git submodule configuration.
-├── CMakeLists.txt      # CMake configuration for building the component.
-├── LICENSE.md          # License terms for the component.
-└── README.md           # Documentation and usage instructions.
+├── .devcontainer/              # Configuration for development container (e.g., VS Code dev container).
+├── .github/                    # GitHub configuration directory (e.g., Actions, workflows).
+├── examples/                   # Sample applications demonstrating how to use the CRC component.
+├── inc/                        # Public headers for the CRC calculation interface.
+├── src/                        # Source files implementing CRC functionality.
+├── tests/                      # Unit tests and validation for the component.
+├── .clang-format               # Configuration file for code formatting with Clang.
+├── .gitignore                  # Specifies files and directories to be ignored by Git.
+├── .gitmodules                 # Git submodule configuration.
+├── calc-crc.code-workspace     # Configuration for VS Code workspace.
+├── CHANGELOG.md                # Changelog tracking.
+├── CMakeLists.txt              # CMake configuration for building the component.
+├── LICENSE.md                  # License terms for the component.
+└── README.md                   # Documentation and usage instructions.
 ```
 
 ## Configurations 
